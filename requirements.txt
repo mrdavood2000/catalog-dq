@@ -1,0 +1,7 @@
+# catalog-dq requirements
+# Core (always needed)
+pandas>=2.0
+# Optional: PostgreSQL support
+psycopg2-binary>=2.9
+# Optional: classical t-CI (bootstrap CI works without scipy)
+scipy>=1.10
